@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navlinks {
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  transition: all;
+  transition-duration: 0.2s;
+}
+.navbardiv {
+  margin-top: 26px;
+  margin-left: 110px;
+}
+#mlogo {
+  width: 60px;
+}
+input[type="text"] {
+  width: 370px;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  /* border: 0.3px solid black; */
+  margin-left: 100px;
+  background-image: url("https://img.icons8.com/ios/40/000000/search--v5.png");
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: left;
+  background-color: rgba(128, 128, 128, 0.109);
+}
+#logodiv {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+}
+.first:hover {
+  border-bottom: 3.5px solid red;
+}
+
+.second:hover {
+  border-bottom: 3.5px solid rgb(245, 61, 245);
+}
+.third:hover {
+  border-bottom: 3.5px solid gray;
+}
+.fourth:hover {
+  border-bottom: 3.5px solid yellow;
+}
+.five:hover {
+  border-bottom: 3.5px solid greenyellow;
+}
+#flexcontainer {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  position: absolute;
+  top: 16px;
+  right: 30px;
+  width: 200px;
+  justify-content: space-between;
+}
+#one,
+#two,
+#three {
+  margin: 10px;
+  padding-bottom: 12px;
+}
+.rightlinks {
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  transition: all;
+  transition-duration: 0.2s;
+}
+#one:hover {
+  border-bottom: 3.5px solid brown;
+  transition-duration: 0.2s;
+}
+#two:hover {
+  border-bottom: 3.5px solid aqua;
+  transition-duration: 0.2s;
+}
+#three:hover {
+  border-bottom: 3.5px solid chartreuse;
+  transition-duration: 0.2s;
+}
+#pr {
+  margin-left: 6px;
+  width: 20px;
+}
+#wi {
+  margin-left: 9px;
+  width: 20px;
+}
+#ba {
+  margin-left: 1px;
+  width: 20px;
+}
+#shipping {
+  margin-top: 30px;
+  width: 100vw;
+}
+#secondimage {
+  width: 100vw;
+}
+body {
+  overflow-x: hidden;
+}
+.cone {
+  color: black;
+  width: 100px;
+}
+.clip {
+  width: 120px;
+  height: 170px;
+  clip-path: circle(37.9% at 50% 55%);
+  position: relative;
+  left: 14%;
+}
+h4 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.card {
+  padding-bottom: 10px;
+  width: 160px;
+  border-radius: 10px;
+  align-self: center;
+  background-color: rgba(128, 128, 128, 0.103);
+  transition: all;
+  transition-duration: 0.2s;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 140px;
+}
+#cat {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200px;
+  position: absolute;
+  top: 765px;
+  left: 30px;
+}
+.card:hover {
+  box-shadow: 3px 5px 4px gray;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14.5px;
+}
+/* .cardtypetwo {
+  width: 140px;
+} */
+
+.img {
+  margin-top: 20px;
+  align-self: center;
+  width: 200px;
+  height: 180px;
+  border-radius: 6px;
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+}
+.brandsdiv {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.cardtypetwo {
+  background-color: rgba(128, 128, 128, 0.164);
+  border-radius: 10px;
+  width: 230px;
+  height: 290px;
+  margin-top: 170px;
+}
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#exp {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200px;
+  position: absolute;
+  top: 1130px;
+  left: 30px;
+}
+.footerlinks {
+  font-family: "Nanum Gothic", sans-serif;
+  color: gray;
+}
+#onlineshop {
+  margin-top: 50.2px;
+  margin-left: 30px;
+  width: 180px;
+  height: 250px;
+  line-height: 25px;
+}
+h2 {
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+#newlogo {
+  position: relative;
+  bottom: 27px;
+  left: 113px;
+}
+#usefullinks {
+  position: absolute;
+  top: 1583.5px;
+  width: 210px;
+  height: 400px;
+  line-height: 25px;
+  margin-left: 245px;
+}
+#appstore {
+  width: 132px;
+  padding-bottom: 9px;
+}
+#googleplay {
+  width: 160px;
+}
+.downloadlogo {
+  position: absolute;
+  top: 1586.5px;
+  left: 401px;
+}
+.socialsites {
+  width: 28px;
+}
+.insta {
+  width: 32px;
+  position: relative;
+  top: 5.5px;
+}
+#keepintouch {
+  position: absolute;
+  top: 1730.5px;
+  width: 240px;
+  left: 410px;
+  height: 85px;
+}
+.desimg {
+  width: 50px;
+}
+#description {
+  position: absolute;
+  top: 1586px;
+  left: 800px;
+  width: 510px;
+  height: 250px;
+}
+h1 {
+  margin-top: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.hundred {
+  margin-right: 12px;
+  float: left;
+}
+p {
+  font-family: "Nanum Gothic", sans-serif;
+  color: gray;
+}
+.thirty,
+.del {
+  margin-right: 12px;
+  float: left;
+}
+#baap {
+  height: 450px;
+}
